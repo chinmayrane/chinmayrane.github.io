@@ -24,4 +24,16 @@ li a{
 
 section::after{
 	clear: both;
+	content: "";
+	position: absolute;
+	z-index: -1;
+	-webkit-box-shadow: 0 0 40px rgba(0,0,0,0.8);
+	box-shadow: 0 0 40px rgba(0,0,0,0.8);
+	bottom: 226px;
+	height: 4%;
+	height: 1%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	left: 10%;
+	right: 10%;
 }
