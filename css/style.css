@@ -5,13 +5,15 @@ section{
 
 section h1{
 	font-size: 30px;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: bolder;
 	font-style: italic;
 }
 
 li{
-	list-style-type: none;	
+	list-style-type: none;
+	float: left;
+	text-align: center;
 }
 
 li a{
