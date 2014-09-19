@@ -1,27 +1,42 @@
 section{
-	width: 98%;
+	width: 60%;
 	margin:0 auto;
 	text-align: center;
 }
 
 section h1{
 	font-size: 100px;
+	color: #AAAAAA;
 	font-family: Raleway, sans-serif;
-	/*font-weight: bolder;
-	font-style: italic;*/
+	border-bottom: 1px solid #DEDEDE;
+	padding-bottom: 10px;	
+}
+
+nav {
+	width: 84%;
+	margin: 0 auto;
 }
 
 li{
 	list-style-type: none;
 	float: left;
 	text-align: center;
-	margin: 0 20% 0 20%
+	margin: 0 5% 5% 6%;
+
 }
 
 li a{
 	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	font-family: Raleway, sans-serif;
 }
 
 section:after{
 	clear: both;
 }
+
+/*li.aboutme{
+	margin: 0 auto;
+	text-align: center;
+}*/
