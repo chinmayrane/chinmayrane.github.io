@@ -4,18 +4,23 @@ section{
 }
 
 section h1{
-	font-size: 30px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: bolder;
-	font-style: italic;
+	font-size: 120px;
+	font-family: Raleway, sans-serif;
+	/*font-weight: bolder;
+	font-style: italic;*/
 }
 
 li{
 	list-style-type: none;
 	float: left;
 	text-align: center;
+	margin: 0 20% 0 20%
 }
 
 li a{
 	text-decoration: none;
+}
+
+section::after{
+	clear: both;
 }
