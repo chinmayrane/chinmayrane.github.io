@@ -1,10 +1,11 @@
 section{
+	width: 98%;
 	margin:0 auto;
 	text-align: center;
 }
 
 section h1{
-	font-size: 120px;
+	font-size: 100px;
 	font-family: Raleway, sans-serif;
 	/*font-weight: bolder;
 	font-style: italic;*/
