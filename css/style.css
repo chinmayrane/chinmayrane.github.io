@@ -112,3 +112,31 @@ hr{
 	border-color: #aaa transparent #fff;
 }
 
+/* Presentation Classes*/
+
+.home{
+	/*text-align: center;*/
+	margin: 0 auto;
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+	position: relative;
+	margin-left: 13%;
+}
+
+.home strong a,code{
+	border-bottom: 1px solid #DEDEDE;
+	color: #000;
+}
+
+.presentationList{
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+	margin: 0 auto
+}
+
+.presentationList ul li{
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	margin: 0 5% 5% 13%;
+}

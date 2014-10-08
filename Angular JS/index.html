@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Angular JS - The Power Framework</title>
+
+		<meta name="description" content="Angular JS">
+		<meta name="author" content="Chinmay Rane">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+    <section data-id="5415e41c93cbb0aa13b95da0554e8ee5">
+        <h1>Angular JS</h1>
+<p>
+        <br>
+    </p>
+<p>
+    <img style="width: 160.963px; height: 160.963px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131294/Angualr.jpg">
+</p>
+<p>
+<br>
+</p>
+<h3>The Power Framework<br>
+</h3>
+<p>
+<br>
+</p>
+<p>
+<br>
+</p>
+<p>
+<br>
+</p>
+</section>
+<section data-id="4a0968650409fb66f3cff489a7104405">
+    <h2>About Me</h2>
+<p align="left">
+    <br>
+</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>Twitter</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>Github</u>
+<br>
+</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @the_Chinmay&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; chinmayrane</p>
+<p align="left">
+<br>
+</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>21</b> Earth years old</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+</p>
+<p style="position: absolute; width: 204px; height: 165px; z-index: 4; left: 21px; top: 266px;" class="absolute-element" align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+</p>
+<p style="position: absolute; width: 677px; height: 106px; z-index: 4; left: 102px; top: 138px;" class="absolute-element" align="left">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+</p>
+</section>
+<section data-id="66412978e5ccbc051d155857c2da2002">
+    <section data-id="09cb9041055e6412636adc2a8488acba">
+        <h2>Why AngularJS?</h2>
+<p align="left">
+        <br>
+    </p>
+<p align="left">&nbsp; KnockoutJS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BackboneJS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ember JS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Angular JS</p>
+<p style="position: absolute; width: 426px; height: 149px; z-index: 4; left: 16px; top: 217px;" class="absolute-element" align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img style="width: 109.099px; height: 109.099px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131302/shakti.jpg">
+    <br>
+</p>
+<p style="position: absolute; width: 312px; height: 243px; z-index: 4; left: 24px; top: 221px;" class="absolute-element" align="left">&nbsp;<img style="width: 122.049px; height: 90.1111px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131301/superman.jpg">
+</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img style="width: 163.687px; height: 108.926px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131307/iron.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img style="width: 145.273px; height: 108.815px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131309/batman.jpg">
+</p>
+<p align="left">
+<br>
+</p>
+<h3 align="center">Extends HTML Vocabulary for your application.&nbsp;&nbsp;</h3>
+<h3>The environment is highly expressive, functional and quick to develop.<br>
+</h3>
+<h3 align="center">&nbsp;<br>
+</h3>
+</section>
+<section data-id="ffe7b5fcf488aec70b8ecead4c96db32">
+    <h3>&nbsp;EmberJS, BackboneJS, KnockoutJS to each other.</h3>
+<h3>
+    <img class="absolute-element" style="width: 731px; height: 411px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 85px; top: 170px;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131333/meme2.jpg">
+</h3>
+</section>
+<section data-id="a97d1138d04e4e80bf0c4ff759e1d779">&nbsp;<img class="absolute-element" style="width: 926px; height: 521px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 1px; top: 69px;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131319/meme.jpg">
+</section>
+<section data-id="62a0b7d73aeb93cd3b4b74d0bae645ab">
+    <img class="absolute-element" style="width: 882px; height: 496px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 27px; top: 94px;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131404/mnaya.jpg">
+    <br>
+</section>
+</section>
+<section data-id="94f0bded5689ad475fb6b224216f577b">
+    <h2>Angular JS</h2>
+<h3>Let's dive deeper!<br>
+</h3>
+<p align="left">
+    <br>
+</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp; MV * Web Application Framework</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp; Clean Architecture</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp; Declarative programming for UI</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp; Imperative programming for Logic</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp; Supports modern desktop and mobile browsers<br>
+</p>
+<p>
+<br>
+</p>
+<h3>Stable - v1.08&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; || &nbsp; &nbsp; Unstable- v1.20 <br>
+</h3>
+<p align="left">&nbsp;&nbsp;&nbsp; <br>
+</p>
+<p>
+<br>
+</p>
+</section>
+<section data-id="cd8f990af15a683703763ed4c3b83838">
+    <h2>Fundamentals</h2>
+<div align="left">
+<p>
+</p>
+<p>
+    <br>
+</p>
+<p>&nbsp;&nbsp; - Backed by Google.<br>
+</p>
+<p>
+</p>
+<p>&nbsp;&nbsp; - Loading views on the fly.</p>
+<p>
+</p>
+<p>&nbsp;&nbsp; - SPAs and fully blown business applications</p>
+<p>
+</p>
+<p>&nbsp;&nbsp; - Testing for AngularJS, right from beginning</p>
+<p>&nbsp;&nbsp; - Internally uses jqLite, glues well with jQuery.</p>
+<p>&nbsp;&nbsp; - Javascript is the x-86 of the web.</p>
+<p>
+<br>
+</p>
+<blockquote>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Think the Javascript way"<br>
+</p>
+</blockquote>
+<h3>&nbsp;&nbsp; <br>
+</h3>
+</div>
+</section>
+<section data-id="e344bee0718a53fd534840ad7a5fa223">
+    <h2>Expressions</h2>
+<p>
+    <br>
+</p>
+<p>{{ 1 + 2 }} <br>
+</p>
+<p>{{ name in names}}</p>
+<p>{{ name.city }}</p>
+<p>&nbsp;</p>
+<img class="absolute-element" style="width: 326.821px; height: 377.815px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 613px; top: 152px;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131432/jim1-80.jpg">
+<img class="absolute-element" style="width: 311.97px; height: 479.617px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 5px; top: 119px;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131427/mckayla-maroney-falls-during-vault-finals-wins-silver-medal-11.jpg">
+</section>
+<section data-id="fe3b09ec11b5bcfdec730a00cf466a24">
+    <section data-id="af4eda951d31e15d73b159b9260679b3">
+        <h2>Filters</h2>
+<p align="left">&nbsp; - Format data for display to the user.</p>
+<p align="left">&nbsp; - AngularJS has some predefined filters like</p>
+<div align="left">
+<ul>
+<li>
+        <font style="font-size: 32px;">&nbsp;Uppercase</font>
+    </li>
+<li>
+    <font style="font-size: 32px;">&nbsp;Lowercase</font>
+</li>
+<li>
+<font style="font-size: 32px;">&nbsp;date</font>
+</li>
+<li>
+<font style="font-size: 32px;">&nbsp;JSON</font>
+</li>
+<li>
+<font style="font-size: 32px;">&nbsp;Number</font>
+</li>
+</ul>
+<p>
+<br>
+</p>
+<p>
+<font style="font-size: 32px;">&nbsp;Usage:</font>
+</p>
+<pre><code> {{ expression | filter1 | filter2 | filter 3|.... |filtern }}  <br><br> {{ expression  | orderBy: 'name' }}<br></code></pre>
+</div>
+</section>
+<section data-id="923e8a4904dabb30a143fec8b37e9418">&nbsp;<img class="absolute-element" style="width: 736.427px; height: 485.568px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 108px; top: 96px;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131637/Coffee_Break1.jpg">
+</section>
+</section>
+<section data-id="06209ce230b559c325e3b42b10e99560">
+    <section data-id="aa154adbaee92928606155b505bc797a">
+<h2>Directives</h2>
+<pre><code> &lt;my-new-widget&gt;<br>    With awesome capabilities<br> &lt;/my-new-widget&gt;<br></code>    </pre>
+<br>
+    <p align="left">&nbsp;&nbsp; -&nbsp; Reusable component</p>
+<p align="left">&nbsp;&nbsp; -&nbsp; Allow data specific logic</p>
+<p align="left">&nbsp;&nbsp; -&nbsp; Angular has predefined directives</p>
+<p align="left">&nbsp;&nbsp; - Turns HTML into a domain specific language</p>
+<p align="left">&nbsp;&nbsp; - Interactivity with the DOM<br>
+</p>
+<p>
+<br>
+</p>
+<p>
+<br>
+</p>
+</section>
+<section data-id="6dd70a8bb4e4fe19a17102d9fe99e601">&nbsp;<h2 style="position: absolute; width: 551px; height: 65px; z-index: 4; left: 204px; top: 21px;" class="absolute-element">
+<br>Aren't they awesome?</h2>
+<img class="absolute-element" style="width: 803px; height: 314px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 62px; top: 201px;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131451/Tweet.png">
+</section>
+</section>
+<section data-id="2cfac9af22264abfb2e0e56edb3c3156">
+    <section data-id="e59f0c2b45ebda9e01822c40643b5fff">
+        <h2>Two way Data Binding</h2>
+<p align="left">
+        <br>
+        </p>
+<p align="left">&nbsp;&nbsp; -&nbsp;&nbsp; Two way binding between the data and the model</p>
+<p align="left">&nbsp;&nbsp; -&nbsp;&nbsp; Model updates&nbsp; the view and view updates the model</p>
+<p align="left">&nbsp;&nbsp; -&nbsp;&nbsp; Binded together through <b>$scope.</b>
+    </p>
+<p align="left">
+    <b>&nbsp;&nbsp; </b>- &nbsp; Saves a lot of rework &nbsp; unlike other frameworks -jQuery</p>
+<p align="left">&nbsp;&nbsp; - &nbsp; Code is lot simpler to follow.</p>
+<p align="left">&nbsp;&nbsp; - &nbsp;&nbsp; No heavy DOM Manipulation</p>
+<p align="left">&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp; No event based functions.<br>
+</p>
+<p align="left">
+<br>
+</p>
+<p align="left">
+<br>
+</p>
+</section>
+<section data-id="3581462d2b6e010578e9e00f73e8ecdd">
+    <img class="absolute-element" style="width: 880px; height: 495px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 14px; top: 94px;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131594/Hum_apkehk.jpg">
+    <br>
+</section>
+</section>
+<section data-id="f98ed5658d58c115ddcfa69f9fc119f1">
+    <section data-id="eb2d6e61e6e177e769d386a2bd80d3a3">
+        <h2>MVC of Angular</h2>
+<p align="left">
+        <br>
+    </p>
+<p align="left">&nbsp; - Model : A object must be referenced by Angular Scope as a&nbsp;&nbsp; <br>
+</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; property of that scope object.</p>
+<p align="left">&nbsp; - ViewModel : A <em>viewmodel</em> is an object that provides specific <br>
+</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; data and methods to maintain specific    views.</p>
+<p align="left">&nbsp; - View :&nbsp; The views rendered on the browsers, Angular makes <br>
+</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; them understand through <b>ng-controllers</b> and<b> <br>
+</b>
+</p>
+<p align="left">
+<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ng-view</b>.</p>
+<p style="position: absolute; width: 946px; height: 47px; z-index: 4; left: 1px; top: 549px;" class="absolute-element" align="left">&nbsp; - Controller: Initiate state of the <b>$scope</b> object and to augment<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and add behaviour to it.<br>
+</p>
+<p style="position: absolute; width: 483px; height: 47px; z-index: 4; left: 11px; top: 593px;" class="absolute-element" align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+</p>
+<blockquote style="position: absolute; width: 790.753px; height: 114px; z-index: 4; left: 54px; top: 642px; max-height: none; max-width: none;" class="absolute-element">
+<p align="left">* Pro Tip - Don't use controller for DOM Manipulation<br>
+</p>
+</blockquote>
+<br>
+</section>
+<section data-id="8e6c237189f0a9c8f61ea37e27b38920">
+    <h3>Real World MVC</h3>
+<h2>
+    <img class="absolute-element" style="width: 774px; height: 580px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 63px; top: 94px;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131614/mvc.jpg">
+</h2>
+</section>
+</section>
+<section data-id="0c4e830ab5b01a457ee6b93441018e96">Dependency Injections<br>
+    <br>
+    <div align="left">&nbsp; -&nbsp; Created using the <b>new</b> operator<br>&nbsp; -&nbsp; Can be looked up by referring to a global variable.<br>&nbsp; -&nbsp; Can be passed into where it is needed.<br>&nbsp; -&nbsp; Used in controllers and factory methods.<br>
+        <br>
+<pre><code>//By Default are injected like the parameters name <br>function MyController = function($scope, param1, param2){<br>   .....<br>}<br><br>//When using obfuscators and minifiers</code><code>MyController.$inject = ['$scope', 'parameter1', 'parameter2']; </code><code></code><code></code>    </pre>
+</div>
+</section>
+<section data-id="8e7d752ceffae3fa8d332d12d4d41a03">
+    <section data-id="631840d82ad30b7270afec79dbd5e537">
+        <h2>Services</h2>
+<div style="position: absolute; width: 839px; height: 530.383px; z-index: 4; left: 61px; top: 100px; max-height: none; max-width: none;" class="absolute-element" align="left">&nbsp; -&nbsp; Singleton objects specific tasks common to web apps.<br>&nbsp; -&nbsp; Identiitfy as the dependency of the component.<br>
+<pre><code> var myApp = angular.module('myApp',[]);<br><br>  myApp.service('basicService', function(){<br><br>    this.throwback = function(){<br>          return "throwback";<br>    };<br><br><br></code>    </pre>
+</div>
+<br>
+    <p>
+    <br>
+</p>
+<p>
+<br>
+</p>
+<p>
+<br>
+</p>
+<p>
+<br>
+</p>
+<p>
+<br>
+</p>
+<br>
+<div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp; Feature that brings client side web apps from the server <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; side that are wired together using Dependency Injection.<br>
+</div>
+</section>
+<section data-id="19c60b0d35f89fc8a886dadc97dc13c8">
+    <h2>Standard Services</h2>
+<p align="left">&nbsp;-&nbsp; <font style="font-size: 32px;">$http</font>
+    </p>
+<p align="left">&nbsp;&nbsp;&nbsp;<font style="font-size: 24px;">&nbsp; Sending AJAX requests and getting data in JSON form</font>
+</p>
+<pre><code></code><code><span class="pln">$http</span><span class="pun">({</span><span class="pln"> method</span><span class="pun">:</span><span class="pln"> </span><span class="str">'GET'</span><span class="pun">,</span><span class="pln"> url</span><span class="pun">:</span><span class="pln"> </span><span class="str">'/foo'</span><span class="pln"> </span><span class="pun">}).</span><span class="pln">
+  success</span><span class="pun">(</span><span class="kwd">function</span><span class="pln"> </span><span class="pun">(</span><span class="pln">data</span><span class="pun">,</span><span class="pln"> status</span><span class="pun">,</span><span class="pln"> headers</span><span class="pun">,</span><span class="pln"> config</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="com">// ...</span><span class="pln">
+  </span><span class="pun">}).</span><span class="pln">
+  error</span><span class="pun">(</span><span class="kwd">function</span><span class="pln"> </span><span class="pun">(</span><span class="pln">data</span><span class="pun">,</span><span class="pln"> status</span><span class="pun">,</span><span class="pln"> headers</span><span class="pun">,</span><span class="pln"> config</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="com">// ...</span><span class="pln">
+  </span><span class="pun">});</span></code>    </pre>
+<p align="left">&nbsp;- <font style="font-size: 32px;">$resource</font>
+    <font style="font-size: 24px;">
+        <br>
+    </font>
+</p>
+<p align="left">
+<font style="font-size: 24px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access to REST services in a more high level fashion</font>
+</p>
+<pre><code></code><code><span class="kwd">var</span><span class="pln"> </span><span class="typ">Users</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> $resource</span><span class="pun">(</span><span class="str">'/user/:userId'</span><span class="pun">,</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> userId</span><span class="pun">:</span><span class="pln"> </span><span class="str">'@id'</span><span class="pln"> </span><span class="pun">});</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> user </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Users</span><span class="pun">.</span><span class="kwd">get</span><span class="pun">({</span><span class="pln"> userId</span><span class="pun">:</span><span class="pln"> </span><span class="lit">123</span><span class="pln"> </span><span class="pun">},</span><span class="pln"> </span><span class="kwd">function</span><span class="pln"> </span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+  user</span><span class="pun">.</span><span class="pln">abc </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">true</span><span class="pun">;</span><span class="pln">
+  user</span><span class="pun">.</span><span class="pln">$save</span><span class="pun">();</span><span class="pln">
+</span><span class="pun">});</span></code></pre>
+<div align="left">&nbsp;- <font style="font-size: 32px;">RESTangular</font> : <font style="font-size: 24px;">Third party&nbsp; solution for declarative and abstracts more of details away .</font>
+<br>
+</div>
+</section>
+<section data-id="8d57b282ec144f09378a1f4f793fae7f">
+    <img class="absolute-element" style="width: 814px; height: 458px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 61px; top: 127px;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131630/restful1.jpg">
+</section>
+</section>
+<section data-id="77b958ec20373112037d3876c863e441">
+    <section data-id="0916d3cc34a325a6deaefec0ee75dc2e">
+        <h2>Routing</h2>
+<p align="left">&nbsp; - <font style="font-size: 24px;">Declared by <b>$routeProvider</b>, which provides <b>$route</b> service.</font>
+        </p>
+<p align="left">&nbsp; - <font style="font-size: 24px;">Binds the Controllers, views, and the URLs&nbsp;</font>
+        </p>
+<p align="left">&nbsp; - <font style="font-size: 24px;">Can use deep linking which uses the browsers history</font>
+        </p>
+<p align="left">&nbsp; - <font style="font-size: 24px;">This doesn't solve the problem of script load ordering or lazy loading.</font>
+        </p>
+<p align="left">&nbsp; - <font style="font-size: 24px;">AMD/ requireJS can be used independently and can exist side by side.</font>
+</p>
+<pre><code>var myApp =  angular.module('myAppModule', ['ngRoute',myAppControllers']);<br><br>myApp.config(['$routeProvider',function($routeProvider){<br>   $routeProvider.when('/home',{<br>         templateURL : 'partials/homeView.html',<br>         controller : 'ControllerHome'<br>}).when('/aboutus', {<br>         templateURL : 'partials/aboutus.html',<br>         controller : 'ControllerAbout'<br>}).otherwise(<br>           redirectTo: '/home'});<br>}]);<br><br></code>    </pre>
+<br>
+</section>
+<section data-id="a5c6adac87a292debd6b2576418413c4">
+    <img class="absolute-element" style="width: 874px; height: 488px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 26px; top: 97px;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131633/routing1.jpg">
+</section>
+</section>
+<section data-id="4ea8418f3edc61fc7f292d152336a675">
+    <h2>Code Structure</h2>
+<p align="left">
+    <br>
+</p>
+<pre><code>- <b>js</b><br>   == app.js    //routing<br>   == controller.js //controllers, can have multiple as well.<br>   == directives.js //Custom directive if any.<br>   == filters.js  //Custom filters if any.<br>   == services.js  //Data fetch, RESTful calls etc.<br><br>- <b>partials</b>  //partials folder holdinf views<br>  == view1.html<br>  == view2.html<br><br>- <b>index.html</b> //main file which has the ng-app declarations.<br><br>-<b> css</b><br> == main.css //affecting any of the files.<br> == bootstrap.css //if any bootstrapping library used.<br><br></code></pre>
+<br>
+</section>
+<section data-id="20e737cbe07ccc1b3d28b4c308e6c72c">
+    <h2>What from here?</h2>
+<img class="absolute-element" style="width: 736px; height: 523px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 87px; top: 125px;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131642/write_all_the_code_in_javascript1.jpg">
+    <p>
+    <br>
+</p>
+</section>
+<section data-id="646e2a19a3b196996d4145cf4cc11f21">
+    <h2>MEAN Stack?</h2>
+<img src="http://www.google.co.in/imgres?imgurl=&amp;imgrefurl=http%3A%2F%2Fchefjerome.com%2Fcorporate%2Faboutus%2Ftechnology&amp;h=0&amp;w=0&amp;sz=1&amp;tbnid=NVnN7zLhn3RUIM&amp;tbnh=129&amp;tbnw=389&amp;zoom=1&amp;docid=F-XvNqi_8sujpM&amp;ei=2IttUsSsBMmGrgfvhYHgBw&amp;ved=0CAEQsCU">
+    <img class="absolute-element" style="width: 457px; height: 139px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 227px; top: 218px;" src="https://github-camo.global.ssl.fastly.net/40504dd28b050be0e43c6ef1e2735b2caf147dd4/687474703a2f2f662e636c2e6c792f6974656d732f30563253316e304b3169337931633132326730342f53637265656e25323053686f74253230323031322d30342d31312532306174253230392e35392e3432253230414d2e706e67">
+    <br>
+    <img class="absolute-element" style="width: 268.392px; height: 134.914px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 323px; top: 530px;" src="http://images.streetwise.co/wp-content/uploads/2010/12/nodejs.png">
+    <img class="absolute-element" style="width: 438.612px; height: 108.728px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 234px; top: 390px;" src="http://pascalprecht.github.io/slides/angularjs-insights/img/angularjs-logo.png">
+    <img class="absolute-element" style="width: 425px; height: 142px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 243px; top: 71px;" src="http://assets.chefjerome.com/bundles/jeromeweb/images/corporate/technologies/MongoDB.png">
+    <br>
+</section>
+<section data-id="c4b522df9f31a4df43f5ef1de95b5b54">
+    <section data-id="df9676c75b0234286dd65658878ef21c">
+        <h2>
+            <br>
+        </h2>
+<p>
+        <br>
+    </p>
+<p>
+    <br>
+</p>
+<p>
+<br>
+</p>
+<p>
+<i>JavaScript has more in common with functional languages like Lisp or Scheme than with C or Java.</i>
+<br>
+</p>
+</section>
+<section data-id="be5f13cecda08154f73c67cf5f036288">
+    <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/131649/crockford.jpg">
+</section>
+<section data-id="8b5f2ea58260ca377a721e04a91321ae">
+    <h2>
+        <br>
+    </h2>
+<p>
+    <br>
+</p>
+<p>
+<br>
+</p>
+<p>
+<i>
+<br>
+</i>
+</p>
+<p>
+<i>Javascript, the good parts</i>
+<br>
+</p>
+</section>
+</section>
+<section data-id="c8cfed7e03278da2e3a5f342ad107254">
+    <h2>Demos</h2>
+<p>
+    <br>
+</p>
+<p>https://themeanstack-c9-thechinmay.c9.io</p>
+<p>
+<br>
+</p>
+</section>
+</div>
+
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

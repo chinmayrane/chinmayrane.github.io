@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Augmented Reality</title>
+
+		<meta name="description" content="AR Labs">
+		<meta name="author" content="Chinmay Rane">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+    <section data-id="91b091212e405bfbb669d7b71b6e74a8">
+        <section data-id="e0333c849885d8c766c4708cda09f0ec">
+            <h1>Augmented Reality<span style="font-size: 115.362px;"></span>
+</h1>
+<div>
+            <br>
+        </div>
+<div>
+        <br>
+    </div>
+<h3>Analysis and level of preparation</h3>
+<div>
+<br>
+</div>
+</section>
+<section data-id="45f1e9baecfb6bc0962cd0c2c01032a3">
+    <h2>What is it?</h2>
+<p>
+    <br>
+</p>
+<p>
+<em>“Augmented reality (AR) is a term for a live direct or indirect view
+ of a physical, real-world environment whose elements are augmented by 
+virtual computer-generated sensory input, such as sound or graphics. It 
+is related to a more general concept called mediated reality, in which a
+ view of reality is modified (possibly even diminished rather than 
+augmented) by a computer. As a result, the technology functions by 
+enhancing one’s current perception of reality.”</em>
+</p>
+</section>
+<section data-id="22ed8b0c9dc7596cedb8ab0b3fa63c86">
+    <h2>Current Market State</h2>
+<div>
+    <br>
+</div>
+<p style="text-align: center;">&nbsp;&nbsp;<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/153287/Augmented-Reality-Market.jpg" style="text-align: center; width: 465.789px; height: 273.999px; max-height: none; max-width: none;">&nbsp; &nbsp;</p>
+<div>
+<i>The growth mostly&nbsp;targeted&nbsp;in the smartphone segment is worth 1.06 Billion dollars by 2020</i>
+</div>
+<div>
+<br>
+</div>
+</section>
+<section data-id="17fccda57ff409ea0c09c054b0e5c2d9">
+    <h2>Division wise distribution - AR</h2>
+<p>
+    <br>
+</p>
+<img style="width: 514.669px; height: 319.975px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/154824/artrends.png">
+<br>
+<br>
+<p>
+<i>Catching up in last 2-3 years</i>
+<br>
+</p>
+</section>
+</section>
+<section data-id="c2fc0a663901d87872aaabaed79b2ef2">
+    <h2>What we can do?</h2>
+<div style="text-align: left;">
+<ul>
+<li>
+<i>
+    <span>&nbsp; Create a new AR service.</span>
+    <br>
+</i>
+</li>
+<li>
+<span>
+    <i>&nbsp; Use existing AR Service such as Layar.</i>
+</span>
+</li>
+<li>
+<span>
+    <i>&nbsp; Layar &nbsp;supports only Android and iOS, no other platform.</i>
+</span>
+</li>
+<li>
+<span>
+    <i>&nbsp; Cross platform development is a steep curve.</i>
+</span>
+</li>
+<li>
+<span>
+    <i>&nbsp; Make a custom AR Service.</i>
+</span>
+</li>
+</ul>
+<p>
+<br>
+</p>
+<p>
+<i>&nbsp;</i>
+</p>
+<p align="center">
+<i>&nbsp;&nbsp; Lot of Physics engine, Game engines can be used to add a gamification concept along with the traditional AR activities.<br>
+</i>
+</p>
+<ul>
+</ul>
+</div>
+<div>
+<br>
+</div>
+<div>
+<br>
+</div>
+</section>
+<section data-id="ecda72dd8ff9cb90a945011a6549f3ad">
+    <h1>Components</h1>
+<div>
+<h1>
+</h1>
+<h2>
+<ul>
+<li>
+<h3>Camera Data</h3>
+</li>
+<li>
+<h3>
+    <span>Location Data</span>
+</h3>
+</li>
+<li>
+<h3>
+    <span>Sensor Data</span>
+</h3>
+</li>
+</ul>
+<span>
+</span>
+</h2>
+<p>
+<i>
+<br>
+</i>
+</p>
+<p>
+<i>Most solutions use OpenCV Library, which has existing solutions of the most common AR problems. </i>
+</p>
+<h2>
+</h2>
+<p>
+<br>
+</p>
+<ul>
+</ul>
+</div>
+</section>
+<section data-id="dd38cc4606ab1b31a4df5e0dfd653c8c">
+    <h2>Usage</h2>
+<div align="left">
+<br>
+    <ul>
+<li>&nbsp; Ultimate goal is to draw over the Camera Feed in real Time.</li>
+<li>&nbsp; Can be done as a Bitmap or a texture on a 3D Surface</li>
+<li>&nbsp;Android has android.graphics and android.opengl which helps us achieve this redraw in each frame.</li>
+<li>&nbsp;The platform specificity comes as a barrier to development</li>
+</ul>
+<p>
+    <br>
+</p>
+<p align="center">
+<i>
+<br>
+</i>
+</p>
+<p align="center">
+<i>
+<b>&nbsp;&nbsp;&nbsp; Google Glass Mirror API </b>is a complete package but only limited <br>
+</i>
+</p>
+<p align="center">
+<i>&nbsp;&nbsp; to Google Glass like devices.</i>
+<br>
+</p>
+<ul>
+</ul>
+</div>
+</section>
+<section data-id="bab87ef847296c7cdde5370c1f907993">
+    <h2>Augmentation Data</h2>
+<div align="left">
+<ul>
+<li>&nbsp;So where does the Augmentation Data come from?</li>
+<ul>
+<li>Our own custom database (e.g Zomato's DB of restaurants)</li>
+<li>This can be accessed over the PaaS(cloud) platform.</li>
+<li>&nbsp;Else, can use the existing WebservicesAPI provided by the proprietary vendors and consume them.</li>
+</ul>
+</ul>
+<p>
+    <br>
+</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Generally, the trend suggest that the application has a <br>
+</i>
+</p>
+<p>
+<i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; preloaded augmentation data DB which ideally is SQLite </i>
+</p>
+</div>
+</section>
+<section data-id="7112e89bdec1aec48d7dab4f366e86e8">
+    <section data-id="a29981937a2b7acdd79ce05be1b694f8">
+        <h2>
+<b>SDKs </b>
+        <br>
+</h2>
+<p>
+        <i>Qualcomm Vuforia</i>
+    </p>
+<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/154766/Qualcomm-Vuforia.png">
+    <p>
+    <i>Development Platform: <b>Eclipse, Unity 3D(Game Engine)</b>
+</i>
+</p>
+<i>
+</i>
+<p>
+<i>Deployment Platforms: <b>Android, iOS</b>
+</i>
+</p>
+<p>
+<i>Price: <b>Free</b>
+</i>
+<br>
+</p>
+<p>
+<br>
+</p>
+</section>
+<section data-id="da5989348c14e51f50aaa84b2fcc3f0e">
+    <h2>MetaIO SDK</h2>
+<p>
+    <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/154767/metaio.jpg">
+</p>
+<p>
+<i>Development Platform: <b>Eclipse, Unity 3D, Metaio Creator</b>
+</i>
+</p>
+<p>
+<i>Deployment Platform: <b>Android, iOS, Windows</b>
+</i>
+</p>
+<p>
+<i>Price:<b> Free</b>
+</i>
+<br>
+</p>
+</section>
+<section data-id="7e0e088a95f1e185766e7e913a1ef2a9">
+    <h2>String SDK</h2>
+<img style="width: 317.637px; height: 155.642px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/154771/string.jpg">
+    <br>
+    <br>
+    <i>Development Platform: <b>OpenGL, Unity 3D</b>
+    <br>Deployment Platform: <b>iOS</b>
+    <br>Price: <b>1 App Free /Paid</b>
+</i>
+<br>
+</section>
+<section data-id="2405e449e3cadab6030e6c9ad3e83723">
+    <h2>IN2AR</h2>
+<img style="width: 283.409px; height: 140.333px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/154779/in2ar.jpg">
+    <br>
+    <br>
+    <i>Development Platform: <b>Flash, Air, Unity 3D</b>
+    <br>Deployment Platform: <b>Android, iOS, MacOSX, Windows</b>
+    <br>Price: <b>Free (IN2AR Logo shall be visible always)</b>
+</i>
+<br>
+</section>
+<section data-id="70ba5a8372e182687b95ade553c6adc1">
+    <h2>Wikitude</h2>
+<img style="width: 147.804px; height: 171.296px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/154785/WT_Logo_centered_Claim.png">
+    <br>
+    <br>
+    <i>This is the best of the lot.</i>
+    <br>
+    <i>Development Platform: <b>HTML,CSS,JS</b>
+    <br>Deployment Platform: <b>iOS, Blackberry10, Android.</b>
+    <br>
+    <b>Can be customised for other platforms via the PhoneGap APIs.</b>
+</i>
+<br>
+<br>
+<i>Price: <b>Free(Wikitude Logo Visible)/Paid</b>
+</i>
+<br>
+</section>
+</section>
+<section data-id="09bc5d0ddee61c9a4593d22fa4461717">
+    <section data-id="912bcd29430356ad5bf092dbc6511aab">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <i>Are we prepared?</i>
+        <br>
+    </section>
+    <section data-id="84e6fcdb745ba77330502d9d01214c67">
+        <h2>
+            <br>
+        </h2>
+<img style="width: 462.598px; height: 328.444px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/154816/2619519.jpg">
+        <br>
+        <br>
+        <br>
+    </section>
+    <section data-id="a8167e78b8ba5a05e711e50a2c8aa2bf">
+        <h2>
+            <br>
+        </h2>
+<p>
+        <br>
+    </p>
+<p>
+    <br>
+</p>
+<p>
+<br>
+</p>
+<p>
+<i>Why and How?</i>
+</p>
+</section>
+<section data-id="e7637dafa6b24560ff1f695c4a4a3a09">
+    <h2>
+        <br>
+    </h2>
+<p>
+    <i>
+    <br>
+</i>
+</p>
+<p>
+<i>
+<b>HTML + JS + CSS </b>= Hybrid Applications <br>Expose Native APIs and package via <b>PhoneGap.</b>
+</i>
+</p>
+<p>
+<br>
+</p>
+<img style="width: 202.608px; height: 237.963px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/media-p.slid.es/uploads/thechinmay/images/154818/3p9ik1.jpg">
+</section>
+</section>
+<section data-id="8c3bd6b87643993b4bb0c3fbcbc6b343">
+    <h2>
+<b>Next step</b>
+</h2>
+<p>
+    <b>
+    <i>Short Term</i>
+</b>
+</p>
+<h3>Infrastructure Procurement</h3>
+<p>- SDKs<br>-&nbsp; Devices <br>- POC</p>
+</section>
+<section data-id="5e272ed6f65d2da3aa79256b25f03fe1">
+    <h2>Next Step&nbsp;</h2>
+<p>
+    <i>Long Term</i>
+</p>
+<div>
+<br>
+</div>
+<div>
+<p style="font-size: 36.23350524902344px; font-variant: normal;">
+<i>- Training</i>
+</p>
+<p style="font-size: 36.23350524902344px; font-variant: normal;">
+<i>- AR Labs&nbsp;</i>
+</p>
+</div>
+</section>
+<section data-id="0c2590695b190928d3257e66cc16a118">
+    <h2>
+        <br>
+    </h2>
+<p>
+    <br>
+</p>
+<p>
+<br>
+</p>
+<p>
+<br>
+</p>
+<p>#ThankYou</p>
+<p>
+<br>
+</p>
+</section>
+</div>
+
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
