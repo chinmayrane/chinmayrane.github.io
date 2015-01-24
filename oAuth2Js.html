@@ -27,6 +27,8 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" ></script>
 </head>
 <body>
+
+  <input type="file" name="" value=" Insert File Here" placeholder="">
   <div id="gConnect">
     <button class="g-signin"
         data-scope="https://www.googleapis.com/auth/plus.login"
@@ -168,11 +170,11 @@ $(document).ready(function() {
   $('#disconnect').click(helper.disconnect);
   $('#loaderror').hide();
   if ($('[data-clientid="916892619057-7v6ce0ecjlamfl1ejh9po91i4hlkuda3.apps.googleusercontent.com"]').length > 0) {
-    alert('This sample requires your OAuth credentials (client ID) ' +
-        'from the Google APIs console:\n' +
-        '    https://code.google.com/apis/console/#:access\n\n' +
-        'Find and replace YOUR_CLIENT_ID with your client ID.'
-    );
+    // alert('This sample requires your OAuth credentials (client ID) ' +
+    //     'from the Google APIs console:\n' +
+    //     '    https://code.google.com/apis/console/#:access\n\n' +
+    //     'Find and replace YOUR_CLIENT_ID with your client ID.'
+    // );
   }
 });
 /**
