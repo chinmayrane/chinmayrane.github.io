@@ -21,14 +21,30 @@
 <html>
 <head>
   <title>Google+ JavaScript Quickstart</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+
   <script src="https://apis.google.com/js/client:platform.js" async defer></script>
   <!-- JavaScript specific to this application that is not related to API
      calls -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" ></script>
+  <style type="text/css" media="screen">
+    #inputFileName{
+      width:auto;
+    }  
+  </style>
 </head>
 <body>
+  <input type="text" name="" value="" placeholder="" id="inputFileName" class="inputFileName form-control floatLeft">
+  <span class="btn btn-primary floatRight" id="selectFile"> Select Files </span>
+  <!-- <label for="inputFileName"> Select </label>-->             
+  <div class="clearfix"></div>
 
-  <input type="file" name="" value=" Insert File Here" placeholder="">
+  <div class="fileUpload" style="display:none;">
+    <span>Upload</span>
+    <input type="file" class="upload" multiple/>
+  </div>
+
   <div id="gConnect">
     <button class="g-signin"
         data-scope="https://www.googleapis.com/auth/plus.login"
