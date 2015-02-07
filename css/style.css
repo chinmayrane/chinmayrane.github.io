@@ -18,7 +18,7 @@ nav {
 }
 
 nav ul{
-	margin-top: 15%;
+	margin-top: 10%;
 }
 
 li{
@@ -97,9 +97,18 @@ section:after{
     margin-top: 0%;
 }
 
+.popUpContent2{
+
+    padding:4px;
+    font-family: Raleway, sans-serif;
+    font-size: 17px;
+    color: #8C8C8C;	
+    margin-top: 0%;
+}
+
 footer{
 	clear: both;
-	padding-top: 7%;
+	padding-top: 3%;
 	text-align: center;
 	width: 60%;
 	margin: 0 auto;
@@ -143,6 +152,23 @@ hr{
 
 #stock{
 	text-align: center;
-	margin-bottom: 0;
-	margin: 0 37%;
+	width:30%;
+	float: left;
+	/*margin-left:11%;
+	margin-bottom: 10%;
+	margin: 0 37%;*/
+}
+
+#collegeStats{
+	text-align: center;
+	width:30%;
+	float: left;
+	/*margin-bottom: 0;
+	margin: 0 37%;*/
+}
+.nomargin{
+	margin-top: 3%;
+}
+.container-outer{
+	width: 115%;
 }
