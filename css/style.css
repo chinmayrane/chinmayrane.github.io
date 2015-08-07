@@ -25,7 +25,7 @@ li{
 	list-style-type: none;
 	float: left;
 	text-align: center;
-	margin: 0 5% 5% 6%;
+	margin: 0 5% 5% 12%;
 
 }
 
@@ -129,7 +129,7 @@ hr{
 	font-family: Raleway, sans-serif;
 	font-size: 16px;
 	position: relative;
-	margin-left: 13%;
+	margin-left: 10%;
 }
 
 .home strong a,code{
@@ -154,6 +154,7 @@ hr{
 	text-align: center;
 	width:30%;
 	float: left;
+	margin-left: 4% !important;
 	/*margin-left:11%;
 	margin-bottom: 10%;
 	margin: 0 37%;*/
