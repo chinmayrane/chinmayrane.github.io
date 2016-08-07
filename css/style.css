@@ -10,22 +10,29 @@ section h1{
 	font-family: Raleway, sans-serif;
 	border-bottom: 1px solid #DEDEDE;
 	padding-bottom: 10px;	
+	margin-bottom: 0%;
 }
 
 nav {
-	width: 77%;
+	width: 66%;
 	margin: 0 auto;
 }
 
 nav ul{
-	margin-top: 10%;
+	/*margin-top: 10%;*/
 }
 
+img{
+	height: 50px;
+	width: 50px;
+}
 li{
-	list-style-type: none;
-	float: left;
-	text-align: center;
-	margin: 0 5% 5% 12%;
+	list-style-type: square;
+	list-style-position: inside;
+	/*float: left;*/
+	text-align: left;
+	margin-bottom: 2%;
+	/*margin: 0 20% 20% 20%;*/
 
 }
 
@@ -36,7 +43,7 @@ a{
 li a{
 	text-decoration: none;
 	text-align: center;
-	font-size: 18px;
+	font-size: 14px;
 	font-family: Raleway, sans-serif;
 }
 
@@ -108,7 +115,7 @@ section:after{
 
 footer{
 	clear: both;
-	padding-top: 3%;
+	padding-top: 0%;
 	text-align: center;
 	width: 60%;
 	margin: 0 auto;
