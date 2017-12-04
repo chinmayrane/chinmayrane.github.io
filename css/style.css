@@ -4,6 +4,13 @@ section{
 	text-align: center;
 }
 
+
+h3{
+	width: 70%;
+	margin:2% auto;
+	text-align: center;
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+}
 section h1{
 	font-size: 80px;
 	color: #000000;
@@ -14,25 +21,47 @@ section h1{
 }
 
 nav {
-	width: 70%;
+	width: 75%;
 	margin: 0 auto;
 }
 
 nav ul{
 	/*margin-top: 10%;*/
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+nav ul strong.typesofplace{
+	text-align: center;
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	margin-bottom: 4%;
+}
+
+
+nav ul li:first-child{
+	margin-top: 3%;
 }
 
 img{
 	height: 50px;
 	width: 50px;
 }
+
+nav ul p{
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	text-align: left;
+}
+
+
+
 li{
 	font-family: 'Lato', Verdana, Helvetica, sans-serif;
   	font-size: 15px;
 	list-style-type: square;
 	list-style-position: inside;
 	text-align: left;
-	margin-bottom: 2%;
+	margin: 2% auto;
 }
 
 a{
